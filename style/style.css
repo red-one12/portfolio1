@@ -23,7 +23,7 @@ body{
 /* header starting...  */
 
 header{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 110px;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@ header .nav-tag-div i:hover{
 .hero-section{
     height: 530px;
     width: 100%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     padding: 0px 200px;
     display: flex;
     justify-content: space-between;
@@ -77,28 +77,30 @@ header .nav-tag-div i:hover{
     font-size: 50px;
     text-align: center;
     margin-top: 10px;
-}
-.hero-section .photo-div h1 span{
-    color: #ff5500;
     letter-spacing: -2px;
+}
+.hero-section .photo-div .ahmed{
+    color: #ff5500;
+    margin-top: -15px;
 }
 .hero-section .photo-div p{
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     color: #4d4d4d;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .hero-section .photo-div .icon-div{
-    background-color: rgb(83, 83, 83);
+    background-color: #f8793a;
     width: 100%;
-    height: 13%;
+    height: 15%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 32px;
 }
 .hero-section .photo-div .icon-div i{
     font-size: 22px;
@@ -109,4 +111,44 @@ header .nav-tag-div i:hover{
 .hero-section .photo-div .icon-div i:hover{
     transform: scale(1.5) translateY(-5px);
     color: white;
+}
+
+
+
+
+.hero-section .text-div{
+    color: white;
+    /* background-color: lightcoral; */
+    height: 500px;
+    margin-left: 50px;
+}
+.hero-section .text-div > h1{
+    font-size: 80px;
+}
+.hero-section .text-div .developer{
+    color: rgb(65, 65, 65);
+    margin-top: -30px;
+}
+.hero-section .text-div > p{
+    color: gray;
+    font-size: 18px;
+}
+.hero-section .text-div .experience{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.hero-section .text-div .experience .card{
+    /* border: 2px solid yellow; */
+    width: 170px;
+}
+.hero-section .text-div .experience .card h1{
+    font-size: 70px;
+}
+.hero-section .text-div .experience .card p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(82, 82, 82);
 }
